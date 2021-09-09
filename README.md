@@ -11,8 +11,11 @@ About publish a react project to GitHub Page
 
 3. change package.json
     "homepage": "https://[Username].github.io/[repositories]/"
+
     in Script: 2 lines
+
         `"predeploy": "npm run build",`
+        
         `"deploy": "gh-pages -d build",`
 
 
