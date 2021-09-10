@@ -18,4 +18,4 @@ About publish a react project to GitHub Page
 
         `"deploy": "gh-pages -d build",`
 
-
+4. `npm run deploy`
